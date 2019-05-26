@@ -1,0 +1,11 @@
+
+def b1clicked(self):
+    # self.Entry1.delete(0, tk.END)
+    # self.Entry1.insert(0, "a default value")
+    var1 = self.Entry1.get()
+    self.Entry1.delete(0, tk.END)
+    self.Entry2.delete(0, tk.END)
+    self.Entry2.insert(0, var1)
+
+def b2clicked(self):
+    pass
